@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 
 # Import MongoDB public GPG key AND create a MongoDB list file
 ENV DEBIAN_FRONTEND noninteractive
